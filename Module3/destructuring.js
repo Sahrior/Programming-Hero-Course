@@ -3,7 +3,7 @@
 // ==========================================
 
 const user = {
-  name: 'Alex',
+  name: 'Alex is cat',
   age: 18,
   city: 'Seattle',
   role: 'Developer'
