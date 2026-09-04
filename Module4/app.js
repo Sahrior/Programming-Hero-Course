@@ -52,3 +52,5 @@ taskInput.addEventListener("keydown", (event) => {
 // li.textContent = "Learn JS";
 // console.log(li);
 // taskList.appendChild(li);
+
+console.log("hey");
