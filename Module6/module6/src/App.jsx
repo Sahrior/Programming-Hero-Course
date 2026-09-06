@@ -1,10 +1,19 @@
 import React from 'react'
+import Testcomponent from './components/Testcomponent'
+import Card from './components/Card'
 
 const App = () => {
   return (
-    <div>
-      hello module 6
-    </div>
+    <>
+
+    <div>Hello</div>
+
+    {/* <Testcomponent/> */}
+
+    <Card name = "Afifa" />
+    <Card name = "Sahrior"/>
+    
+    </>
   )
 }
 
