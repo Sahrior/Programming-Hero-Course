@@ -1,0 +1,36 @@
+.card {
+  width: 280px;
+  padding: 25px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #222;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 40px;
+  background: #f5f7fb;
+}
